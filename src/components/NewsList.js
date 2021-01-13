@@ -20,7 +20,7 @@ const NewsListBlock = styled.div`
 const NewsList = ({category}) => {
   const [loading, response, error] = usePromise(()=>{
     const query = (category === 'all' ? '' : `&category=${category}`);
-    return axios.get(`http://newsapi.org/v2/top-headlines?country=kr${query}&apiKey=dabeec94a62a4c2688397e5a0f0f56dc`);
+    return axios.get(`https://newsapi.org/v2/top-headlines?country=kr${query}&apiKey=dabeec94a62a4c2688397e5a0f0f56dc`);
   }, [category])
   if(loading){
     return <NewsListBlock>대기중...</NewsListBlock>;
