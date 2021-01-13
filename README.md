@@ -2,6 +2,9 @@
 
 ![image](https://user-images.githubusercontent.com/45222982/94003133-d1539a80-fdd5-11ea-9d82-348b61bdb072.png)
 
+## Link
+- **CORS 정책으로 localhost에서만 api요청가능**
+
 ## axios
  - 현재 가장 많이 사용되고 있는 자바스크립트 HTTP 클라이언트로서 HTTP 요청을  Promise 기반으로 처리
  
